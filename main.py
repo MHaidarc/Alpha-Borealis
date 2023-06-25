@@ -13,8 +13,8 @@ keyboard = Controller()
 draw = True
 previousTime = 0
 
-LEFT_MARGIN = WIDTH/2 + 250
-RIGHT_MARGIN = WIDTH/2 - 250
+LEFT_MARGIN = int(WIDTH/2) + 250
+RIGHT_MARGIN = int(WIDTH/2) - 250
 DOWN_MARGIN = HEIGHT - 250
 
 while True: 
