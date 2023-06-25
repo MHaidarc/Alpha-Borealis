@@ -14,3 +14,10 @@ O jogo está sendo desenvolvido na plataforma Unity2D, com o sistema de controle
 ## Sobre
 
 Alfa Borealis conta a história de Antares, uma raposa do deserto em uma jornada rumo ao Polo Norte. No entanto, pelo caminho, ela enfrentará desafios que precisará superar para alcançar seu objetivo final: reencontrar uma antiga amiga e presenciar a Aurora Boreal.
+
+## Personagens
+
+### Antares:
+![image](https://github.com/MHaidarc/Alpha-Borealis/assets/114187667/5346bbdb-9938-4f58-9b0c-23b1ca0c4804)
+
+Antares é uma raposa do deserto que recebe uma carta de sua amiga Sirius dizendo que o correio de seu país não vai mais funcionar. Decidida que quer ver sua amiga de novo, Antares entra em uma jornada para o país de Sirius.
