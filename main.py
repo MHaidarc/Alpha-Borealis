@@ -7,15 +7,15 @@ import pyautogui
 
 cap = cv2.VideoCapture(0)
 detector = PoseDetector()
-WIDTH, HEIGHT = pyautogui.size()
+WIDTH, HEIGHT = 1280, 960
 keyboard = Controller()
 
 draw = True
 previousTime = 0
 
-LEFT_MARGIN = int(WIDTH/2) + 250
-RIGHT_MARGIN = int(WIDTH/2) - 250
-DOWN_MARGIN = HEIGHT - 250
+LEFT_MARGIN = int(WIDTH/2) + 150
+RIGHT_MARGIN = int(WIDTH/2) - 150
+DOWN_MARGIN = HEIGHT - 150
 
 while True: 
 
