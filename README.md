@@ -1,4 +1,4 @@
-# Alfa Borealis
+# Alpha Borealis
 
 Um jogo controlado por captura de movimento pelas bibliotecas do Python _Mediapipe_ e _OpenCV_
 
@@ -8,7 +8,7 @@ O jogo está sendo desenvolvido na plataforma Unity2D, com o sistema de controle
 
 - Mateus Haidar: Designer de níveis e programador; @MHaidarc
 - Lucas Barros: Programador; @LucasOliveiraaa
-- Alexandre Drezza: Programador; @Alexandre-Drezza-Menedes
+- Alexandre Drezza: Programador; @Alexandre-Drezza-Menezes
 - Heloísa Dias: Artista e roteirista.
 
 ## Sobre
