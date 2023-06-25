@@ -61,9 +61,9 @@ class PoseDetector():
         PutLine(img,(x1,y1),(x2,y2))
         PutLine(img,(x3,y3),(x2,y2))
 
-        PutMark(img,x1,y1)
-        PutMark(img,x2,y2)
-        PutMark(img,x3,y3)
+        PutMark(img,x1,y1,(0,255,0))
+        PutMark(img,x2,y2,(0,255,0))
+        PutMark(img,x3,y3,(0,255,0))
 
         PutText(img, f"{angle} {'grau' if angle < 2 else 'graus'}",x2-50,y2+100)
 
