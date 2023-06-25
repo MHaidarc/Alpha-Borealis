@@ -6,9 +6,9 @@ Um jogo controlado por captura de movimento pelas bibliotecas do Python _Mediapi
 
 O jogo está sendo desenvolvido na plataforma Unity2D, com o sistema de controle programado em Python. Faremos uso do CSPython para integrar o reconhecimento de poses com a Unity2D. Uma demonstração do jogo será apresentada na Mostra de Projetos 2023 do Objetivo Itapetininga, com coordenação do professor _Ezequiel_ e a participação dos seguintes membros:
 
-- Mateus Haidar: Designer de níveis e programador;
-- Lucas Barros: Programador;
-- Alexandre Drezza: Programador;
+- Mateus Haidar: Designer de níveis e programador; @MHaidarc
+- Lucas Barros: Programador; @LucasOliveiraaa
+- Alexandre Drezza: Programador; @Alexandre-Drezza-Menedes
 - Heloísa Dias: Artista e roteirista.
 
 ## Sobre
