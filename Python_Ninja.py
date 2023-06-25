@@ -2,6 +2,7 @@ import cv2
 import pose
 import random
 import time
+import Util
 
 cap = cv2.VideoCapture(0)
 pTime = 0
@@ -37,11 +38,10 @@ while True:
 
         cv2.putText(img, (str(int(points))),(500, 50), cv2.FONT_HERSHEY_PLAIN, 2, (255, 255, 0), 2)
         cv2.putText(img, (str(int(miss))),(500, 100), cv2.FONT_HERSHEY_PLAIN, 2, (0,0,255), 2)
-        cv2.circle(img, (lmList[19][1], lmList[19][2]), 5, (0,255,), cv2.FILLED)
-        cv2.circle(img, (lmList[19][1], lmList[19][2]), 10, (0,255,0), 2)
-        cv2.circle(img, (lmList[20][1], lmList[20][2]), 5, (0,255,), cv2.FILLED)
-        cv2.circle(img, (lmList[20][1], lmList[20][2]), 10, (0,255,0), 2)
+        Util.PutMark(img, lmList[19][1], lmList[19][2], (0,255,0))
+        Util.PutMark(img, lmList[20][1], lmList[20][2], (255,0,0))
 
+        #eu não tenho a menor ideia de que porra é esse if, mas FUNCIONA, e eu estou cansada demais pra arrumar isso
         if lmList[19][1] > POSY - TAM and lmList[19][1] < POSY + TAM and lmList[19][2] > POS - TAM and lmList[19][2] < POS + TAM or lmList[20][1] > POSY - TAM and lmList[20][1] < POSY + TAM and lmList[20][2] > POS - TAM and lmList[20][2] < POS + TAM:
                 POS = 0
                 POSY = random.randint(10, 550)
