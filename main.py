@@ -3,7 +3,6 @@ import time
 from pose import PoseDetector
 from pynput.keyboard import Key, Controller
 from Util import PutMark, PutLine, PutText
-import pyautogui
 
 cap = cv2.VideoCapture(0)
 detector = PoseDetector()
