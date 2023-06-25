@@ -32,6 +32,16 @@ while True:
         }
 
         if draw:
+
+            #divide a tela em 3 áreas, LEFT, RIGH e JUMP
+            PutLine(img, (LEFT_MARGIN,0),(LEFT_MARGIN,HEIGHT))
+            PutLine(img, (RIGHT_MARGIN,0),(RIGHT_MARGIN,HEIGHT))
+            PutLine(img, (0, DOWN_MARGIN),(WIDTH, DOWN_MARGIN))
+
+            PutText(img, "LEFT",int((WIDTH / 2) - 500), int((HEIGHT / 2) - 300))
+            PutText(img, "RIGHT",int((WIDTH / 2) + 300), int((HEIGHT / 2) - 300))
+            PutText(img, "JUMP",int((WIDTH / 2) - 100), (HEIGHT - 200))
+            
             PutMark(img, lmList[0][1], lmList[0][2],(255,0,255))
             PutText(img, f"X={lmList[0][1]}",WIDTH - 300, 75, (255,0,255))
 
@@ -43,15 +53,6 @@ while True:
 
             PutMark(img, lmList[20][1], lmList[20][2],(255,255,0))
             PutText(img, f"X={lmList[20][1]}, Y={HEIGHT - lmList[20][2]}",int((WIDTH / 2) - 300), 75, (255,255,0))
-
-            #divide a tela em 3 áreas, LEFT, RIGH e JUMP
-            PutLine(img, (LEFT_MARGIN,0),(LEFT_MARGIN,HEIGHT))
-            PutLine(img, (RIGHT_MARGIN,0),(RIGHT_MARGIN,HEIGHT))
-            PutLine(img, (0, DOWN_MARGIN),(WIDTH, DOWN_MARGIN))
-
-            PutText(img, "LEFT",int((WIDTH / 2) - 500), int((HEIGHT / 2) - 300))
-            PutText(img, "RIGHT",int((WIDTH / 2) + 300), int((HEIGHT / 2) - 300))
-            PutText(img, "JUMP",int((WIDTH / 2) - 100), (HEIGHT - 200))
 
         angle = detector.findAngle(img, 13, 11, 23, draw)
 
