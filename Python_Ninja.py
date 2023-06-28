@@ -61,4 +61,6 @@ while True:
     cv2.putText(img, str(int(fps)),(70, 50), cv2.FONT_HERSHEY_PLAIN, 3, (255, 0, 0), 3)
     img = cv2.resize(img, [1280, 960])
     cv2.imshow("image", img) 
-    cv2.waitKey(1)
+    if cv2.waitKey(1) & 0xFF == ord('q') or miss == 5 :
+        break
+cv2.destroyAllWindows()
