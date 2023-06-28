@@ -24,4 +24,5 @@ Antares é uma raposa do deserto que recebe uma carta de sua amiga Sirius dizend
 
 ## PythonNinja.py
 
-PythonNinja.py é um minijogo incluído no repositório para testar funcionalidades da biblioteca OpenCV. No jogo, algumas bolas caem na tela e você deverá acertá-las com as suas mão para fazer pontos (indicados no canto superior direito com um texto ciano). Deixe as bolinhas caírem até o fundo da tela e você marcará erros (indicados com texto vermelho). Erre mais de 3 vezes e você perde o jogo.
+PythonNinja.py é um minijogo incluído no repositório para testar funcionalidades da biblioteca OpenCV. No jogo, algumas bolas caem na tela e você deverá acertá-las com as suas mão para fazer pontos (indicados no canto superior direito com um texto ciano). Deixe as bolinhas caírem até o fundo da tela e você marcará erros (indicados com texto vermelho). Erre 5 vezes e você perde o jogo.
+![image](https://github.com/MHaidarc/Alpha-Borealis/assets/114187667/dceaa480-fad8-4ba9-9bdc-ce1a28af7980)
