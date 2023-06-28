@@ -80,4 +80,6 @@ while True:
     PutText(img, str(int(fps)),70, 75, (255, 0, 0))
     cv2.imshow("image", img)
 
-    cv2.waitKey(1)
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        break
+cv2.destroyAllWindows()
