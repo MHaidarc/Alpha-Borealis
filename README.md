@@ -1,4 +1,4 @@
-![image](https://github.com/MHaidarc/Alpha-Borealis/assets/114187667/5b35a135-272e-4013-9aa9-8c2baa593420)# Alpha Borealis
+# Alpha Borealis
 
 Um jogo controlado por captura de movimento pelas bibliotecas do Python _Mediapipe_ e _OpenCV_
 
