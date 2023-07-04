@@ -1,4 +1,4 @@
-# Alpha Borealis
+![image](https://github.com/MHaidarc/Alpha-Borealis/assets/114187667/5b35a135-272e-4013-9aa9-8c2baa593420)# Alpha Borealis
 
 Um jogo controlado por captura de movimento pelas bibliotecas do Python _Mediapipe_ e _OpenCV_
 
@@ -29,5 +29,5 @@ Antares é uma raposa do deserto que recebe uma carta de sua amiga Sirius dizend
 
 ## Python_Ninja.py
 
-PythonNinja.py é um minijogo incluído no repositório para testar funcionalidades da biblioteca OpenCV. No jogo, algumas bolas caem na tela e você deverá acertá-las com as suas mão para fazer pontos (indicados no canto superior direito com um texto ciano). Deixe as bolinhas caírem até o fundo da tela e você marcará erros (indicados com texto vermelho). Erre 5 vezes e você perde o jogo.
-![image](https://github.com/MHaidarc/Alpha-Borealis/assets/114187667/dceaa480-fad8-4ba9-9bdc-ce1a28af7980)
+Python_Ninja.py é um minijogo incluído no repositório para testar funcionalidades da biblioteca OpenCV. No jogo, algumas bolas caem na tela e você deverá acertá-las com as suas mão para fazer pontos (indicados no canto superior direito com um texto ciano). Deixe as bolinhas caírem até o fundo da tela e você marcará erros (indicados com texto vermelho). Erre 5 vezes e você perde o jogo.
+![image_screenshot_04 07 2023](https://github.com/MHaidarc/Alpha-Borealis/assets/114187667/09fff2b0-bff7-4ac4-a428-a889660bc1fa)
