@@ -2,6 +2,11 @@
 
 Um jogo controlado por captura de movimento pelas bibliotecas do Python _Mediapipe_ e _OpenCV_
 
+![Screenshot from 2023-07-04 15-24-28](https://github.com/MHaidarc/Alpha-Borealis/assets/114187667/c3638125-e0eb-4705-96c5-86ac983442d3)
+![Screenshot from 2023-07-04 15-25-09](https://github.com/MHaidarc/Alpha-Borealis/assets/114187667/2600018c-7ffb-4996-9520-01532cd32f8f)
+![Screenshot from 2023-07-04 15-25-35](https://github.com/MHaidarc/Alpha-Borealis/assets/114187667/65c0ed0a-b37e-4ad0-848f-d009ae1a4775)
+
+
 ## Descrição
 
 O jogo está sendo desenvolvido na plataforma Unity2D, com o sistema de controle programado em Python. Faremos uso do CSPython para integrar o reconhecimento de poses com a Unity2D. Uma demonstração do jogo será apresentada na Mostra de Projetos 2023 do Objetivo Itapetininga, com coordenação do professor _Ezequiel_ e a participação dos seguintes membros:
