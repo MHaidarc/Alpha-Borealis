@@ -9,14 +9,11 @@ pTime = 0
 detector = pose.PoseDetector()
 
 ACC = 1
-POS = 1
-POSY = random.randint(10, 550)
+pos_y = 1
+pos_x = random.randint(10, 550)
 TAM = 50
 points = 0
 miss = 0
-
-#dificuldade = input("DIFICULDADE:")
-#print("dificuldade selecionada:", dificuldade)
 
 while True:
     success, img = cap.read()
@@ -24,32 +21,24 @@ while True:
     img = detector.findPose(img)
     lmList = detector.findPosition(img,False)
     if len(lmList) != 0:
-        cv2.circle(img, (POSY, POS), TAM, (0, 255, 255), cv2.FILLED)
+        cv2.circle(img, (pos_x, pos_y), TAM, (0, 255, 255), cv2.FILLED)
 
-        #if dificuldade == 'fácil':
-        POS += ACC
+        pos_y += ACC
         ACC += 1
-        #elif dificuldade == 'médio':
-        #    POS += ACC
-        #    ACC += 2
-        #elif dificuldade == 'difícil':
-        #    POS += ACC
-        #    ACC += 3
 
         cv2.putText(img, (str(int(points))),(500, 50), cv2.FONT_HERSHEY_PLAIN, 2, (255, 255, 0), 2)
         cv2.putText(img, (str(int(miss))),(500, 100), cv2.FONT_HERSHEY_PLAIN, 2, (0,0,255), 2)
         Util.PutMark(img, lmList[19][1], lmList[19][2], (0,255,0))
         Util.PutMark(img, lmList[20][1], lmList[20][2], (255,0,0))
 
-        #eu não tenho a menor ideia de que porra é esse if, mas FUNCIONA, e eu estou cansada demais pra arrumar isso
-        if lmList[19][1] > POSY - TAM and lmList[19][1] < POSY + TAM and lmList[19][2] > POS - TAM and lmList[19][2] < POS + TAM or lmList[20][1] > POSY - TAM and lmList[20][1] < POSY + TAM and lmList[20][2] > POS - TAM and lmList[20][2] < POS + TAM:
-                POS = 0
-                POSY = random.randint(10, 550)
+        if lmList[19][1] > pos_x - TAM and lmList[19][1] < pos_x + TAM and lmList[19][2] > pos_y - TAM and lmList[19][2] < pos_y + TAM or lmList[20][1] > pos_x - TAM and lmList[20][1] < pos_x + TAM and lmList[20][2] > pos_y - TAM and lmList[20][2] < pos_y + TAM:
+                pos_y = 0
+                pos_x = random.randint(10, 550)
                 ACC = 1
                 points += 1
-        elif POS > 600:
-            POS = 1
-            POSY = random.randint(10, 550)
+        elif pos_y > 600:
+            pos_y = 1
+            pos_x = random.randint(10, 550)
             ACC = 1
             miss += 1
 
