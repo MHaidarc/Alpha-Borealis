@@ -60,19 +60,21 @@ while True:
         if (HEIGHT - marks["left_foot"][1]) > 150 and (HEIGHT - marks["right_foot"][1]) > 150:
             keyboard.press(Key.space)
             PutText(img, "JUMP",int((WIDTH / 2) - 100), HEIGHT - 200, (0,255,0))
+        else:            
+            keyboard.release(Key.space)
 
         if lmList[0][1] > (int(WIDTH/2) + 150):
             keyboard.press("d")
             PutText(img, "RIGHT",int((WIDTH / 2) + 300), int((HEIGHT / 2) - 300), (0,255,0))
-        
+        else:            
+            keyboard.release("d")        
+
         if lmList[0][1] < (int(WIDTH/2) - 150):
             keyboard.press("a")
             PutText(img, "LEFT",int((WIDTH / 2) - 500), int((HEIGHT / 2) - 300), (0,255,0))
-            
-        keyboard.release("a")
-        keyboard.release(Key.space)
-        keyboard.release("d")
-            
+        else:
+            keyboard.release("a")
+
     currentTime = time.time()
     fps = 1/(currentTime-previousTime)
     previousTime = currentTime
