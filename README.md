@@ -9,7 +9,7 @@ O jogo está sendo desenvolvido na plataforma Unity2D, com o sistema de controle
 - **Mateus Haidar:** Designer de níveis e programador; @MHaidarc
 - **Lucas Barros:** Programador; @LucasOliveiraaa
 - **Alexandre Drezza:** Programador; @Alexandre-Drezza-Menezes
-- **Heloísa Dias:** Artista e roteirista.
+- **Heloísa Dias:** Artista, roteirista e compositora.
 
 ## Sobre
 
